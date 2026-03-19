@@ -1,0 +1,21 @@
+[project]
+name = "ace"
+version = "0.1.0"
+description = "ACE"
+requires-python = ">=3.11"
+dependencies = [
+  "click>=8.1",
+  "tokenizers>=0.22",
+  "onnxruntime>=1.24",
+  "llama_cpp_python>=0.3",
+  "numpy>=2.4",
+  "huggingface_hub>=1.7"
+  "json_repair>=0.58"
+]
+
+[project.scripts]
+ace = "ace.cli:cli"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"

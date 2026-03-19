@@ -1,0 +1,280 @@
+{
+  "general": {
+    "close_window": {
+      "key": "mod+w",
+      "description": "Close current focused window or application",
+      "key_name": "general-close_window",
+      "key_need": []
+    },
+    "app_drawer": {
+      "key": "mod+space",
+      "description": "Open application launcher to search and start programs",
+      "key_name": "general-app_drawer",
+      "key_need": []
+    },
+    "open_browser": {
+      "key": "mod+O",
+      "description": "Open launch start web browser application to visit websites browse internet access pages like YouTube Reddit Google GitHub Facebook Twitter Instagram any site or search things on the internet",
+      "key_name": "general-open_browser",
+      "key_need": ["browser-focus_urlbar"]
+    },
+    "open_file_manager": {
+      "key": "mod+E",
+      "description": "Open file manager to browse folders documents downloads and files",
+      "key_name": "general-open_file_manager",
+      "key_need": []
+    },
+    "screenshot": {
+      "key": "print",
+      "description": "Take screenshot of the current display screen or window",
+      "key_name": "general-screenshot",
+      "key_need": []
+    },
+    "open_notifications": {
+      "key": "mod+N",
+      "description": "Open notification center to view sustem alerts and messages",
+      "key_name": "general-open_notifications",
+      "key_need": []
+    }
+  },
+  "browser": {
+    "new_tab": {
+      "key": "ctrl+T",
+      "description": "Open new browser tab to visit another website",
+      "key_name": "browser-new_tab",
+      "key_need": ["general-open_browser"]
+    },
+    "close_tab": {
+      "key": "ctrl+W",
+      "description": "Close current browser tab",
+      "key_name": "browser-close_tab",
+      "key_need": []
+    },
+    "new_window": {
+      "key": "ctrl+n",
+      "description": "Open create launch new browser window to browse visit another website additional site separate page",
+      "key_name": "browser-new_window",
+      "key_need": []
+    },
+    "new_private_window": {
+      "key": "ctrl+shift+n",
+      "description": "Open create launch new private incognito window for private browsing anonymous session secret mode",
+      "key_name": "browser-new_private_window",
+      "key_need": []
+    },
+    "close_window": {
+      "key": "ctrl+shift+W",
+      "description": "Close Browser Window",
+      "key_name": "browser-close_window",
+      "key_need": []
+    },
+    "focus_urlbar": {
+      "key": "ctrl+l",
+      "description": "Focus select activate address bar URL field location bar to type enter input website address web URL search query navigate go to sites YouTube Reddit Google GitHub",
+      "key_name": "browser-focus_urlbar",
+      "key_need": []
+    },
+    "next_tab": {
+      "key": "ctrl+tab",
+      "description": "Go to next tab",
+      "key_name": "browser-next_tab",
+      "key_need": []
+    },
+    "prev_tab": {
+      "key": "ctrl+shift+tab",
+      "description": "Go to previous tab",
+      "key_name": "browser-prev_tab",
+      "key_need": []
+    },
+    "first_tab": {
+      "key": "alt+1",
+      "description": "Go to the First tab",
+      "key_name": "browser-first_tab",
+      "key_need": []
+    },
+    "last_tab": {
+      "key": "alt+9",
+      "description": "Go to the last tab",
+      "key_name": "browser-last_tab",
+      "key_need": []
+    },
+    "backward": {
+      "key": "alt+left",
+      "description": "Go one page back",
+      "key_name": "browser-backward",
+      "key_need": []
+    },
+    "forward": {
+      "key": "alt+right",
+      "description": "Go one page forward",
+      "key_name": "browser-forward",
+      "key_need": []
+    },
+    "scroll_up": {
+      "key": "pageup",
+      "description": "Scroll Up",
+      "key_name": "browser-scroll_up",
+      "key_need": []
+    },
+    "scroll_down": {
+      "key": "pagedown",
+      "description": "Scroll Down",
+      "key_name": "browser-scroll_down",
+      "key_need": []
+    },
+    "reload": {
+      "key": "ctrl+R",
+      "description": "Refresh reload current webpage",
+      "key_name": "browser-reload",
+      "key_need": []
+    },
+    "history": {
+      "key": "ctrl+H",
+      "description": "Open Browser History",
+      "key_name": "browser-history",
+      "key_need": []
+    },
+    "sidebar": {
+      "key": "ctrl+B",
+      "description": "Open Browser Sidebar",
+      "key_name": "browser-sidebar",
+      "key_need": []
+    },
+    "stop_loading": {
+      "key": "esc",
+      "description": "Stop Page Loading Browser",
+      "key_name": "browser-stop_loading",
+      "key_need": []
+    },
+    "find_in_page": {
+      "key": "ctrl+F",
+      "description": "Search in browser page",
+      "key_name": "browser-find_in_page",
+      "key_need": []
+    },
+    "print": {
+      "key": "ctrl+P",
+      "description": "Print current page",
+      "key_name": "browser-print",
+      "key_need": []
+    },
+    "home": {
+      "key": "alt+home",
+      "description": "Go to Home Page",
+      "key_name": "browser-home",
+      "key_need": []
+    },
+    "downloads": {
+      "key": "ctrl+shift+Y",
+      "description": "Open Downloads page",
+      "key_name": "browser-downloads",
+      "key_need": []
+    },
+    "dev_tools": {
+      "key": "ctrl+shift+I",
+      "description": "Open Browser Dev Tools",
+      "key_name": "browser-dev_tools",
+      "key_need": []
+    }
+  },
+  "terminal": {
+    "new_tab": {
+      "key": "ctrl+shift+T",
+      "description": "Open new tab in terminal",
+      "key_name": "terminal-new_tab",
+      "key_need": []
+    },
+    "close_tab": {
+      "key": "ctrl+shift+W",
+      "description": "Close current terminal tab",
+      "key_name": "terminal-close_tab",
+      "key_need": []
+    },
+    "next_tab": {
+      "key": "ctrl+tab",
+      "description": "Go to next tab",
+      "key_name": "terminal-next_tab",
+      "key_need": []
+    },
+    "prev_tab": {
+      "key": "ctrl+shift+tab",
+      "description": "Go to previous tab",
+      "key_name": "terminal-prev_tab",
+      "key_need": []
+    },
+    "copy": {
+      "key": "ctrl+shift+C",
+      "description": "Copy text in terminal",
+      "key_name": "terminal-copy",
+      "key_need": []
+    },
+    "paste": {
+      "key": "ctrl+shift+V",
+      "description": "Past text in terminal",
+      "key_name": "terminal-paste",
+      "key_need": []
+    }
+  },
+  "file_manager": {
+    "new_tab": {
+      "key": "ctrl+T",
+      "description": "Open new tab",
+      "key_name": "file_manager-new_tab",
+      "key_need": []
+    },
+    "close_tab": {
+      "key": "ctrl+W",
+      "description": "Close current tab",
+      "key_name": "file_manager-close_tab",
+      "key_need": []
+    },
+    "next_tab": {
+      "key": "ctrl+tab",
+      "description": "Go to next tab",
+      "key_name": "file_manager-next_tab",
+      "key_need": []
+    },
+    "prev_tab": {
+      "key": "ctrl+shift+tab",
+      "description": "Go to previous tab",
+      "key_name": "file_manager-prev_tab",
+      "key_need": []
+    },
+    "open_file": {
+      "key": "enter",
+      "description": "Open selected File",
+      "key_name": "file_manager-open_file",
+      "key_need": []
+    },
+    "rename_file": {
+      "key": "f2",
+      "description": "Rename selected file",
+      "key_name": "file_manager-rename_file",
+      "key_need": []
+    },
+    "delete": {
+      "key": "delete",
+      "description": "Delete selected file",
+      "key_name": "file_manager-delete",
+      "key_need": []
+    },
+    "copy": {
+      "key": "ctrl+c",
+      "description": "Copy selected file",
+      "key_name": "file_manager-copy",
+      "key_need": []
+    },
+    "cut": {
+      "key": "ctrl+X",
+      "description": "Cut selected file",
+      "key_name": "file_manager-cut",
+      "key_need": []
+    },
+    "paste": {
+      "key": "ctrl+V",
+      "description": "Paste copied file",
+      "key_name": "file_manager-paste",
+      "key_need": []
+    }
+  }
+}

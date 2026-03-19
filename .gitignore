@@ -204,4 +204,9 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
 __marimo__/
+
+# Added by Arjun
+ace-data
+integrate_hotkeys.py
