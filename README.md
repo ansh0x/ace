@@ -101,7 +101,8 @@ ace hotkey list -g  # List groups
 
 ### Configuration
 Configuration file is in `~/.ace/config.json`
-- Right now there many customizations available.
+- Right now there no customizations available.
+- They will be avaialble in future
 
 ## Technical Details
 
@@ -115,8 +116,7 @@ Configuration file is in `~/.ace/config.json`
 ### Training
 Trained on custom dataset covering:
 - File operations (copy, move, delete)
-- Browser automation (open, navigate)
-- Repetitive tasks (bulk extraction, batch processing)
+- Browser automation (for now only opens browser and websites, refer to example/youtube_test.mkv)
 - Task classification (atomic vs repetitive vs clarification)
 
 ## Roadmap
