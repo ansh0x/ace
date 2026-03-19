@@ -32,33 +32,6 @@ ACE takes natural language tasks and:
 
 All processing happens locally - your data never leaves your machine.
 
-## Examples
-
-<video id="videoPlayer" controls width="600">
-    <source src="./examples/create_test" type="video/mp4">
-</video>
-
-<p>Choose a video to play:</p>
-<select id="videoSelector" onchange="changeVideo()">
-    <option value="./examples/create_test.mkv>Create Test</option>
-    <option value="./examples/delete_test.mkv">Delete Test</option>
-    <option value="./exampled/move_test.mkv">Move Test </option>
-    <option value="./exampled/youtube_test.mkv">Youtube Test </option>
-</select>
-
-<script>
-    function changeVideo() {
-        var selector = document.getElementById('videoSelector');
-        var player = document.getElementById('videoPlayer');
-        var newSource = selector.value;
-        
-        // Update the video source and reload the player
-        player.src = newSource;
-        player.load();
-        player.play();
-    }
-</script>
-
 ## Features
 
 ✅ **Local execution** - No cloud APIs, no data transmission  
