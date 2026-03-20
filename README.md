@@ -165,7 +165,7 @@ This means:
 ### AI Training Restriction
 Training of AI/ML models using this code or model weights is prohibited without explicit written permission.
 
-For commercial licensing inquiries: [your email]
+For commercial licensing inquiries: <a href="mailto:arjun.s9826@gmail.com?subject=[Licensing%20Request]">Email Me</a>
 
 **Built with:** PyTorch • Transformers • llama.cpp • sentence-transformers
 
