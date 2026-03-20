@@ -9,7 +9,7 @@ dependencies = [
   "onnxruntime>=1.24",
   "llama_cpp_python>=0.3",
   "numpy>=2.4",
-  "huggingface_hub>=1.7"
+  "huggingface_hub>=1.7",
   "json_repair>=0.58"
 ]
 

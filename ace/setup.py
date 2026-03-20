@@ -1,5 +1,4 @@
 from pathlib import Path
-import os
 import shutil
 from .download_models import download_model
 import json
@@ -8,6 +7,8 @@ import json
 def setup():
 
     HOME = Path.home() / ".ace"
+
+    HOME.mkdir(parents=True, exist_ok=True)
 
     package_dir = Path(__file__).parent.resolve()
     config_file = ["applications.json", "hotkeys.json"]
