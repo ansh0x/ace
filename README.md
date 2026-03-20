@@ -3,7 +3,7 @@
 > Local-first task automation using a fine-tuned 0.5B LLM. No cloud APIs, no subscriptions, runs entirely on your CPU.
 
 [![License](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](LICENSE)
-[![Models](https://img.shields.io/badge/🤗-Models-yellow)](https://huggingface.co/yourname/ace-0.5b-gguf)
+[![Models](https://img.shields.io/badge/🤗-Models-yellow)](https://huggingface.co/ansh0x/ace-0.5b-gguf)
 
 ACE detects task types automatically and generates execution plans - all running locally with a custom-trained 0.5B language model optimized for CPU inference.
 
