@@ -27,6 +27,8 @@ def setup():
 
     config = {"version": "0.1.0", "home": str(HOME), "llm_cache_size": cache_size}
 
+    Path(HOME / "cache" / "hotkey").mkdir(parents=True, exist_ok=True)
+
     with open(HOME / "config.json", "w") as f:
         json.dump(config, f)
 

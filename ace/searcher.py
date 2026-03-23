@@ -70,7 +70,7 @@ class SemanticHotkeyRetriever:
         )
         end = perf_counter()
         print(
-            f"✓ Cached {len(self.hotkey_names)} embeddings to {self.cache_dir}. Took {end - start}secs"
+            f"✓ Cached {len(self.hotkey_names)} embeddings to {self.cache_dir}. Took {end - start:0.2f}secs"
         )
 
     def _get_dependencies(self, key):
